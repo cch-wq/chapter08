@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import useCart from '../store/cart'
+import useCart from '../stores/cart'
 const { cartCount } = useCart()
 </script>
 

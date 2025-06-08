@@ -16,7 +16,7 @@
     <!-- 每周上新 -->
 <home-new></home-new>
 <!-- 人气推荐 -->
- <home-top></home-top>
+<home-top></home-top>
 </template>
 
 <script setup>

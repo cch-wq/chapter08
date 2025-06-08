@@ -65,7 +65,7 @@ import { getGoodsAlbum, getGoodsDetail } from '../api'
 
 import { showToast } from 'vant'
 import { useRouter } from 'vue-router'
-import useCart from '../store/cart'
+import useCart from '../stores/cart'
 const { cartCount, addToCart } = useCart()
 
 const router = useRouter();

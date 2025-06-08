@@ -8,7 +8,6 @@ const useCart = defineStore('cart', () => {
             item.num += goods.num
         } else {
             cart.value.push(goods)
-            67
         }
     }
     const removeCart = id => {

@@ -101,7 +101,6 @@ const initRightHeight = () => {
     Array.prototype.slice.call(allList).forEach(li => {
         top += li.clientHeight
         itemArray.push(top)
-        47
     })
     rightLiTops.value = itemArray
 }
